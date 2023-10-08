@@ -1,0 +1,34 @@
+p {
+    color: red;
+  }
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    /*在 margin或padding 这样的属性上设置两个值时，第一个值影响元素的上下方向；第二个值影响左右方向 */
+    margin: 0px auto;
+    
+    /* 四个值为--上、右、下、左 */
+    padding: 0 auto;
+    background-color:rgb(196, 227, 159);
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
